@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 13px;
+    }
+    nav {
+        height: 40px;
+    }
+    nav .brand h2 {
+        font-size: 14px;
+    }
+
+    nav .menu a {
+        font-size: 12px;
+    }
+
+    nav .menu a:hover {
+        color: #dddbce;
+    }
+
+    main #content {
+        flex-direction: column;
+    }
+
+    .wisata img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .sejarah img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .box-samping aside {
+        width: inherit;
+        margin: 20px auto;
+    }
+
+    .contact input.name {
+        margin: 0;
+    }
+
+    .contact h1 {
+        margin-bottom: 10px;
+    }
+
+    .contact input {
+        display: block;
+        margin: 20px auto;
+    }
+
+    footer .footer {
+        font-size: 13px;
+    }
+}
